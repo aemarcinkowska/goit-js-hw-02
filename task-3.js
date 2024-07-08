@@ -1,10 +1,10 @@
 function checkForSpam(message) {
     switch(message) {
         case 'spam' || 'sale':
-        console.log("true");
+        return "true";
     
         default:
-        console.log("false");
+        return "false";
     }
 }
 
